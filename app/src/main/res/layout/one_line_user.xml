@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/iv_one_line_userImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_baseline_account_box_24"
+        />
+    <TextView
+        android:id="@+id/tv_one_line_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/iv_one_line_userImage"
+        android:text="name"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+
+        />
+    <TextView
+        android:id="@+id/tv_one_line_user_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/iv_one_line_userImage"
+        android:text="date"
+        android:layout_marginTop="5dp"
+        android:textSize="25sp"
+        android:layout_below="@+id/tv_one_line_user_name"
+        />
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/iv_one_line_userImage"
+        />
+
+</RelativeLayout>
